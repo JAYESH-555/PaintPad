@@ -2,6 +2,9 @@
 
 A fun and interactive drawing board where users can sketch, erase, and manage their drawings effortlessly! Built with HTML, CSS, and JavaScript.
 
+# 🌐 Live Demo
+You can check the live version of the app here: [Click Here](https://jayesh-555.github.io/PaintPad-Drawing-Board-App/)
+
 ## ✨ Features
 
 - 🖌️ Pencil Tool: Draw freeform lines with adjustable brush sizes and colors.
@@ -36,7 +39,14 @@ A fun and interactive drawing board where users can sketch, erase, and manage th
 
 5. Clear the entire canvas with the Clear All button.
 
+## 💻 Installation
 
+- Clone the repository:
+
+    ```bash
+    https://github.com/JAYESH-555/PaintPad-App.git
+
+- Open the `index.html` file in your browser.
 
 
 
