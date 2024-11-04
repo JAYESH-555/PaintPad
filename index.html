@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.icons8.com/?size=80&id=eQkArL7FJogn&format=png" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>PaintPad</title>
+</head>
+<body>
+    <!-- Header Section  -->
+    <header>
+        <img src="https://img.icons8.com/?size=80&id=eQkArL7FJogn&format=png" alt="Logo" class="logo"> 
+        <h1>PaintPad</h1>
+    </header>
+
+    <!-- Toolbar Section -->
+    <div id="toolbar">
+        <button class="toolItem" id="pencilButton">
+            <i class="fas fa-pencil-alt"></i>
+            <span>Draw</span>
+        </button>
+        <button class="toolItem" id="eraserButton">
+            <i class="fas fa-eraser"></i>
+            <span>Eraser</span>
+        </button>
+        <button class="toolItem" id="undoButton">
+            <i class="fas fa-undo-alt"></i>
+            <span>Undo</span>
+        </button>
+        <button class="toolItem" id="redoButton">
+            <i class="fas fa-redo-alt"></i>
+            <span>Redo</span>
+        </button>
+        <button class="toolItem" id="clearButton">
+            <i class="fas fa-trash-alt"></i>
+            <span>Clear</span>
+        </button>
+        <div class="toolItem color-picker-wrapper">
+            <label for="colorPicker">Color:</label>
+            <input id="colorPicker" type="color" value="#000000">
+        </div>
+        <div class="toolItem brush-size-wrapper">
+            <label for="brushSize">Width:</label>
+            <input type="range" id="brushSize" min="1" max="50" value="5">
+        </div>
+    </div>
+
+    <!-- Canvas Section -->
+    <canvas id="drawingCanvas"></canvas>
+
+    <!-- Include Script -->
+    <script src="script.js"></script>
+</body>
+</html>
