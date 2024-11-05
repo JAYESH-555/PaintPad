@@ -3,7 +3,7 @@
 A fun and interactive drawing board where users can sketch, erase, and manage their drawings effortlessly! Built with HTML, CSS, and JavaScript.
 
 # 🌐 Live Demo
-You can check the live version of the app here: [Click Here](https://jayesh-555.github.io/PaintPad-Drawing-Board-App/)
+You can check the live version of the app here: [Click Here](https://jayesh-555.github.io/PaintPad/)
 
 # ✨ Features
 
